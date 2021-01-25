@@ -3,6 +3,7 @@ An app that showcases websites of all universities in Turkey.
 
 ![cover](doc/cover.gif)
 
+# LICENSE
 ```
 MIT License
 
