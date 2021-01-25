@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class UniDetails extends StatelessWidget {
-  int _id;
-  UniDetails(this._id);
+  String url;
+  UniDetails(this.url);
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class UniDetails extends StatelessWidget {
       appBar: AppBar(
         title: Text("UniDetails"),
       ),
-      body: Text("$_id"),
+      body: Text("$url"),
     );
   }
 }

@@ -10,7 +10,7 @@ void main() {
       if (settings.name.split("/")[1] == "details") {
         return MaterialPageRoute(
           builder: (context) => UniDetails(
-            int.parse(settings.name.split("/")[2]),
+            settings.name.substring(9),
           ),
         );
       }
