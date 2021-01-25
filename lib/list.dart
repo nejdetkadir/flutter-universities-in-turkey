@@ -42,7 +42,7 @@ class _UniList extends State<UniList> {
                       title: Text(snapshot.data[index].name),
                       onTap: () => {
                         Navigator.pushNamed(context,
-                            "/details/${snapshot.data[index].web_pages[0]}")
+                            "/details/${snapshot.data[index].web_pages.length == 1 ? snapshot.data[index].web_pages[0] : snapshot.data[index].web_pages[1]}")
                       },
                     ),
                   );
